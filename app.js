@@ -1,49 +1,38 @@
 const express = require("express");
-const http = require("http");
-const socketio = require("socket.io");
-
 const app = express();
-const server = http.createServer(app);
-const io = socketio(server, { origins: "*:*" });
-const router = require("./router");
+const port = process.env.PORT || 5000;
+
 const cors = require("cors");
 
-const port = process.env.PORT || 5000;
+const router = require("./router");
+
 const memes = require("./memeCollection");
 
+app.use(cors({
+  credentials: true,
+  origin: 'http://localhost:3000' // URL of the react (Frontend) app
+}));
+
 app.use(router);
-app.use(cors())
+app.use(express.static(__dirname + '/node_modules'));
 
-io.origins((origin, callback) => {
-  if (origin !== 'https://foo.example.com') {
-    return callback('origin not allowed', false);
-  }
-  callback(null, true);
+app.get('/', (req, res) => {
+  res.send('Welcome to Socket.IO App! - Clue Mediator');
 });
-
-app.use((req, res, next) => {
-  res.header("Access-Control-Allow-Origin", "*");
-  res.header("Access-Control-Allow-Headers", "*");
-  if (req.method === "OPTIONS") {
-    res.header("Access-Control-Allow-Methods", "GET");
-    return res.status(200).json({});
-  }
-  next();
-});
-
+ 
 app.get("/memes", (req, res) => {
   res.send(memes);
 });
 
-app.listen(port, () => {
-  console.log(`listening on port ${port}`);
+var server = app.listen(port, () => {
+  console.log('Server started on: ' + port);
 });
+ 
 
-//socket io:
 
-io.on("connection", (socket) => {
-  console.log("new connection");
-  socket.on("disconnect", () => {
-    console.log("user left");
-  });
-});
+
+
+// attach socket to the node server
+
+const io = require('socket.io').listen(server);
+require('./socket')(io);

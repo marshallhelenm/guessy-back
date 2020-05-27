@@ -71,6 +71,66 @@ const memes = [
       "https://res.cloudinary.com/dwfqeeh5f/image/upload/v1589852807/Guessy/memes/steel_feathers.png",
     origin: "https://knowyourmeme.com/memes/steel-is-heavier-than-feathers",
   },
+  {
+    id: "10_kermit_tea",
+    stub: "kermit_tea",
+    title: "But That's None of My Business",
+    img:
+      "https://res.cloudinary.com/dwfqeeh5f/image/upload/v1589934935/Guessy/memes/kermit_tea.png",
+    origin: "https://knowyourmeme.com/memes/but-thats-none-of-my-business",
+  },
+  {
+    id: "11_old_spice",
+    stub: "old_spice",
+    title: "I'm On A Horse",
+    img:
+      "https://res.cloudinary.com/dwfqeeh5f/image/upload/v1589935138/Guessy/memes/old_spice.jpg",
+    origin: "https://knowyourmeme.com/memes/events/isaiah-mustafa-old-spice",
+  },
+  {
+    id: "12_mordor",
+    stub: "mordor",
+    title: "One Does Not Simply Walk Into Mordor",
+    img:
+      "https://res.cloudinary.com/dwfqeeh5f/image/upload/v1589935255/Guessy/memes/mordor.jpg",
+    origin: "https://knowyourmeme.com/memes/one-does-not-simply-walk-into-mordor",
+  },
+  {
+    id: "13_pointing_spider-man",
+    stub: "pointing_spider-man",
+    title: "Spider-Man Pointing At Spider-Man",
+    img:
+      "https://res.cloudinary.com/dwfqeeh5f/image/upload/v1589935584/Guessy/memes/spider-man.jpg",
+    origin: "https://knowyourmeme.com/memes/spider-man-pointing-at-spider-man",
+  },
+  {
+    id: "14_good_for_her",
+    stub: "good_for_her",
+    title: "Good For Her",
+    img:
+      "https://res.cloudinary.com/dwfqeeh5f/image/upload/v1589935959/Guessy/memes/Screen_Shot_2020-05-19_at_5.53.14_PM.png",
+    origin: "",
+  },
+  {
+    id: "15_arthur_fist",
+    stub: "arthur_fist",
+    title: "Arthur's Fist",
+    img:
+      "https://res.cloudinary.com/dwfqeeh5f/image/upload/v1589936087/Guessy/memes/arthur_fist.jpg",
+    origin: "https://knowyourmeme.com/memes/arthurs-fist",
+  },
 ];
 
 module.exports = memes;
+
+// sometimes expensive is worse
+// distracted boyfriend
+// granny with a gun
+// spiderverse thinking peter b
+// marge potato meme
+// DW this can't stop me cus I can't read
+// whatcha got there? ... a smoothie
+// no take only throw
+// i need this because of reasons
+// I was there Gandalf
+// I did my waiting 12 years of it in azkaban
