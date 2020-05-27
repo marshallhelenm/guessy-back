@@ -35,4 +35,5 @@ var server = app.listen(port, () => {
 // attach socket to the node server
 
 const io = require('socket.io').listen(server);
-require('./socket')(io);
+const socket = require('./socket')
+socket(io);
