@@ -6,8 +6,10 @@ const socket = (io) => {
       //event: user joins
 
       const { user, error } = addUser({ id: client.id, name, room });
-
+      
       if (error) return callback(error);
+      
+      client.join(user.room);
 
       client.emit("message", {
         user: "admin",
@@ -17,8 +19,6 @@ const socket = (io) => {
       client.broadcast
         .to(user.room)
         .emit("message", { user: "admin", text: `${user.name} has joined!` }); //lets everyone else know the user has joined the chat
-
-      client.join(user.room);
 
       callback();
     });
