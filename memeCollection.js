@@ -6,6 +6,7 @@ const memes = [
     img:
       "https://res.cloudinary.com/dwfqeeh5f/image/upload/v1588045049/Guessy/memes/i_sure_hope.jpg",
     origin: "https://knowyourmeme.com/memes/road-work-ahead",
+    alt: ""
   },
   {
     id: "2_is_pigeon",
@@ -14,6 +15,7 @@ const memes = [
     img:
       "https://res.cloudinary.com/dwfqeeh5f/image/upload/v1588044932/Guessy/memes/is_this_a_pigeon.jpg",
     origin: "https://knowyourmeme.com/memes/is-this-a-pigeon",
+    alt: ""
   },
   {
     id: "3_pikachu",
@@ -22,6 +24,7 @@ const memes = [
     img:
       "https://res.cloudinary.com/dwfqeeh5f/image/upload/v1588959076/Guessy/memes/image0.png",
     origin: "https://knowyourmeme.com/memes/surprised-pikachu",
+    alt: ""
   },
   {
     id: "4_then_perish",
@@ -30,6 +33,7 @@ const memes = [
     img:
       "https://res.cloudinary.com/dwfqeeh5f/image/upload/v1589822516/Guessy/memes/perish.jpg",
     origin: "https://knowyourmeme.com/memes/then-perish",
+    alt: ""
   },
   {
     id: "5_real_estate",
@@ -38,6 +42,7 @@ const memes = [
     img:
       "https://res.cloudinary.com/dwfqeeh5f/image/upload/v1589828289/Guessy/memes/download_1.jpg",
     origin: "https://knowyourmeme.com/memes/its-free-real-estate",
+    alt: ""
   },
   {
     id: "6_woman_yelling_cat",
@@ -46,6 +51,7 @@ const memes = [
     img:
       "https://res.cloudinary.com/dwfqeeh5f/image/upload/v1589844095/Guessy/memes/womanyellingcat.jpg",
     origin: "https://knowyourmeme.com/memes/woman-yelling-at-a-cat",
+    alt: ""
   },
   {
     id: "7_this_is_fine",
@@ -54,6 +60,7 @@ const memes = [
     img:
       "https://res.cloudinary.com/dwfqeeh5f/image/upload/v1589850523/Guessy/memes/Screen_Shot_2020-05-18_at_6.09.39_PM.png",
     origin: "https://knowyourmeme.com/memes/this-is-fine",
+    alt: ""
   },
   {
     id: "8_evil_kermit",
@@ -62,6 +69,7 @@ const memes = [
     img:
       "https://res.cloudinary.com/dwfqeeh5f/image/upload/v1589852447/Guessy/memes/evil_kermit.jpg",
     origin: "https://knowyourmeme.com/memes/evil-kermit",
+    alt: ""
   },
   {
     id: "9_steel_feathers",
@@ -70,6 +78,7 @@ const memes = [
     img:
       "https://res.cloudinary.com/dwfqeeh5f/image/upload/v1589852807/Guessy/memes/steel_feathers.png",
     origin: "https://knowyourmeme.com/memes/steel-is-heavier-than-feathers",
+    alt: ""
   },
   {
     id: "10_kermit_tea",
@@ -78,6 +87,7 @@ const memes = [
     img:
       "https://res.cloudinary.com/dwfqeeh5f/image/upload/v1589934935/Guessy/memes/kermit_tea.png",
     origin: "https://knowyourmeme.com/memes/but-thats-none-of-my-business",
+    alt: ""
   },
   {
     id: "11_old_spice",
@@ -86,6 +96,7 @@ const memes = [
     img:
       "https://res.cloudinary.com/dwfqeeh5f/image/upload/v1589935138/Guessy/memes/old_spice.jpg",
     origin: "https://knowyourmeme.com/memes/events/isaiah-mustafa-old-spice",
+    alt: ""
   },
   {
     id: "12_mordor",
@@ -94,6 +105,7 @@ const memes = [
     img:
       "https://res.cloudinary.com/dwfqeeh5f/image/upload/v1589935255/Guessy/memes/mordor.jpg",
     origin: "https://knowyourmeme.com/memes/one-does-not-simply-walk-into-mordor",
+    alt: ""
   },
   {
     id: "13_pointing_spider-man",
@@ -102,6 +114,7 @@ const memes = [
     img:
       "https://res.cloudinary.com/dwfqeeh5f/image/upload/v1589935584/Guessy/memes/spider-man.jpg",
     origin: "https://knowyourmeme.com/memes/spider-man-pointing-at-spider-man",
+    alt: ""
   },
   {
     id: "14_good_for_her",
@@ -110,6 +123,7 @@ const memes = [
     img:
       "https://res.cloudinary.com/dwfqeeh5f/image/upload/v1589935959/Guessy/memes/Screen_Shot_2020-05-19_at_5.53.14_PM.png",
     origin: "",
+    alt: ""
   },
   {
     id: "15_arthur_fist",
@@ -118,6 +132,7 @@ const memes = [
     img:
       "https://res.cloudinary.com/dwfqeeh5f/image/upload/v1589936087/Guessy/memes/arthur_fist.jpg",
     origin: "https://knowyourmeme.com/memes/arthurs-fist",
+    alt: ""
   },
 ];
 
