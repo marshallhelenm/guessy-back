@@ -38,7 +38,7 @@ const socket = (io) => {
         room: user.room,
         users: getUsersInRoom(user.room),
       });
-
+ 
       callback();
     });
 
