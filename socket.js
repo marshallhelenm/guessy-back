@@ -10,10 +10,10 @@ const socket = (io) => {
       if (error) return callback(error);
 
       client.join(user.room);
-
+ 
       client.emit("message", {
         user: "admin",
-        text: `${user.name}, welcome to the room ${user.room}.`,
+        text: `${user.name}, welcome to the room "${user.room}".`,
       }); // lets the user know they've joined the chat
 
       client.broadcast
@@ -38,7 +38,7 @@ const socket = (io) => {
         room: user.room,
         users: getUsersInRoom(user.room),
       });
- 
+  
       callback();
     });
 
